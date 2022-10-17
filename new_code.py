@@ -12,13 +12,21 @@ gamma = 0.9
 epsilon = 1.0
 
 env = gym.make('highway-v0')
+
 env.configure({
     "observation": {
         "type": "LidarObservation",
         "vehicles_count": 15,
+        "maximum_range" : 20,
+        "cells" : 8
     },
-    "absolute": False
+    "absolute": False,
+    "action" : {
+        "type" : "DiscreteMetaAction",
+        "lateral" : False
+    }
 })
+
 
 obs = env.reset()
 
