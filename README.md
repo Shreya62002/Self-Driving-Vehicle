@@ -1,6 +1,9 @@
 This project was a part of Summer Intern Program at [IV Labs](https://www.ivlabs.in/), the AI and Robotics Community of VNIT.
 
 This project focuses on making a model of Self Driving Vehicle using Tabular Reinforcement Learning Techniques.
+#**Description**
+&nbsp
+Make a Reinforcement Learning (RL) Model which can drive a car without any external assistance (i.e. Learning from its own experience).
 # **Implementation**
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## State Space
@@ -21,3 +24,8 @@ ACTIONS_ALL = {\
     }
 ## Observation Space
 We used lidar observation to measure relative distances of ego vehicle  from other vehicles.
+## Method Used
+Q learning \
+One of the strengths of Q-Learning is that it is able to compare the expected utility of the available actions without requiring a model of the environment. Reinforcement Learning is an approach where the agent needs no teacher to learn how to solve a problem.\
+
+
