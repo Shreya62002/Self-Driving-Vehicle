@@ -4,7 +4,7 @@ This project focuses on making a model of Self Driving Vehicle using Tabular Rei
 # **Implementation**
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## State Space
-1)16 angles out of which we picked up only 5 to reduce our state space .Took only front and side angles ignoring backward ones.
+1)16 angles out of which we picked up only 5 to reduce our state space .Took only front and side angles ignoring backward ones.\
 2)Discretized distances to reduce state space.
 ## Action Space
 #### Discrete Meta Actions
@@ -12,12 +12,12 @@ The DiscreteMetaAction type adds a layer of speed and steering controllers on to
 
 The full corresponding action space is defined in ACTIONS_ALL
 
-ACTIONS_ALL = {
-        0: 'LANE_LEFT',
-        1: 'IDLE',
-        2: 'LANE_RIGHT',
-        3: 'FASTER',
-        4: 'SLOWER'
+ACTIONS_ALL = {\
+        0: 'LANE_LEFT',\
+        1: 'IDLE',\
+        2: 'LANE_RIGHT',\
+        3: 'FASTER',\
+        4: 'SLOWER'\
     }
 ## Observation Space
 We used lidar observation to measure relative distances of ego vehicle  from other vehicles.
