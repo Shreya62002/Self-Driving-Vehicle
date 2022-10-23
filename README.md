@@ -34,8 +34,8 @@ env =gym.make('highway-v0')
 ***
 * pip
 * gym
-*matplotlib
-#**Installation**
+* matplotlib
+# **Installation**
 ***
 * Clone this repository
 * Navigate to the cloned repository
