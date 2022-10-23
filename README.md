@@ -3,6 +3,9 @@ This project was a part of Summer Intern Program at [IV Labs](https://www.ivlabs
 This project focuses on making a model of Self Driving Vehicle using Tabular Reinforcement Learning Techniques.
 # **Description**
 Make a Reinforcement Learning (RL) Model which can drive a car without any external assistance (i.e. Learning from its own experience).
+
+![highway](https://user-images.githubusercontent.com/102024497/197385400-43e11f8e-a46b-4058-a8f9-c68c31dedc6b.gif)
+
 # **Implementation**
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## State Space
