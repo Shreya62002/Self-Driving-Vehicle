@@ -7,9 +7,9 @@ This project focuses on making a model of Self Driving Vehicle using Tabular Rei
 2)Discretized distances to reduce state space.\
 ##Action Space\
 Discrete Meta Actions\
-The DiscreteMetaAction type adds a layer of speed and steering controllers on top of the continuous low-level control, so that the ego-vehicle can automatically follow the road at a desired velocity. Then, the available meta-actions consist in changing the target lane and speed that are used as setpoints for the low-level controllers.\
+The DiscreteMetaAction type adds a layer of speed and steering controllers on top of the continuous low-level control, so that the ego-vehicle can automatically follow the road at a desired velocity. Then, the available meta-actions consist in changing the target lane and speed that are used as setpoints for the low-level controllers.
 
-The full corresponding action space is defined in ACTIONS_ALL\
+The full corresponding action space is defined in ACTIONS_ALL
 
 ACTIONS_ALL = {\
         0: 'LANE_LEFT',\
@@ -19,4 +19,4 @@ ACTIONS_ALL = {\
         4: 'SLOWER'\
     }\
 ##Observation Space\
-We used lidar observation to measure relative distances of ego vehicle  from other vehicles.\
+We used lidar observation to measure relative distances of ego vehicle  from other vehicles.
