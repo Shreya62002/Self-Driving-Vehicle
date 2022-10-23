@@ -12,12 +12,12 @@ The DiscreteMetaAction type adds a layer of speed and steering controllers on to
 
 The full corresponding action space is defined in ACTIONS_ALL
 
-ACTIONS_ALL = {\
-        0: 'LANE_LEFT',\
-        1: 'IDLE',\
-        2: 'LANE_RIGHT',\
-        3: 'FASTER',\
-        4: 'SLOWER'\
-    }\
+ACTIONS_ALL = {
+        0: 'LANE_LEFT',
+        1: 'IDLE',
+        2: 'LANE_RIGHT',
+        3: 'FASTER',
+        4: 'SLOWER'
+    }
 ## Observation Space
 We used lidar observation to measure relative distances of ego vehicle  from other vehicles.
