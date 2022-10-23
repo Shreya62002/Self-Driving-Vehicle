@@ -10,7 +10,7 @@ Make a Reinforcement Learning (RL) Model which can drive a car without any exter
 2)Discretized distances to reduce state space.
 ## Action Space
 #### Discrete Meta Actions
-The DiscreteMetaAction type adds a layer of speed and steering controllers on top of the continuous low-level control, so that the ego-vehicle can automatically follow the road at a desired velocity. Then, the available meta-actions consist in changing the target lane and speed that are used as setpoints for the low-level controllers.
+The available meta-actions consist in changing the target lane.
 
 The full corresponding action space is defined in ACTIONS_ALL
 
@@ -18,13 +18,11 @@ ACTIONS_ALL = {\
         0: 'LANE_LEFT',\
         1: 'IDLE',\
         2: 'LANE_RIGHT',\
-        3: 'FASTER',\
-        4: 'SLOWER'\
     }
 ## Observation Space
 We used lidar observation to measure relative distances of ego vehicle  from other vehicles.
 ## Method Used
 Q learning \
-One of the strengths of Q-Learning is that it is able to compare the expected utility of the available actions without requiring a model of the environment. Reinforcement Learning is an approach where the agent needs no teacher to learn how to solve a problem.\
-
-
+One of the strengths of Q-Learning is that it is able to compare the expected utility of the available actions without requiring a model of the environment. Reinforcement Learning is an approach where the agent needs no teacher to learn how to solve a problem.
+# **Environment**
+gym.make('highway-v0')
