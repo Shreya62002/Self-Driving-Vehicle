@@ -27,5 +27,15 @@ We used lidar observation to measure relative distances of ego vehicle  from oth
 ## Method Used
 Q learning \
 One of the strengths of Q-Learning is that it is able to compare the expected utility of the available actions without requiring a model of the environment. Reinforcement Learning is an approach where the agent needs no teacher to learn how to solve a problem.
-# **Environment**
+## Environment
 env =gym.make('highway-v0')
+
+# **Dependencies**
+*pip
+*gym
+*matplotlib
+#**Installation**
+*Clone this repository
+*Navigate to the cloned repository
+*Run command $ pip install -e ./
+
