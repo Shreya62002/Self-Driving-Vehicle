@@ -31,10 +31,12 @@ One of the strengths of Q-Learning is that it is able to compare the expected ut
 env =gym.make('highway-v0')
 
 # **Dependencies**
+***
 *pip
 *gym
 *matplotlib
 #**Installation**
+***
 *Clone this repository
 *Navigate to the cloned repository
 *Run command $ pip install -e ./
