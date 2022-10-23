@@ -6,6 +6,11 @@ Make a Reinforcement Learning (RL) Model which can drive a car without any exter
 
 ![highway](https://user-images.githubusercontent.com/102024497/197385400-43e11f8e-a46b-4058-a8f9-c68c31dedc6b.gif)
 
+
+![WhatsApp Image 2022-10-23 at 15 26 28](https://user-images.githubusercontent.com/102024497/197386077-fe17d057-bc10-4c3f-ac9f-1c1ef313b70a.jpeg)
+Blue Graph:Rewards vs episodes\
+Yellow Graph:Average Reward vs Episodes
+
 # **Implementation**
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## State Space
