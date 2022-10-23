@@ -32,12 +32,12 @@ env =gym.make('highway-v0')
 
 # **Dependencies**
 ***
-*pip
-*gym
+* pip
+* gym
 *matplotlib
 #**Installation**
 ***
-*Clone this repository
-*Navigate to the cloned repository
-*Run command $ pip install -e ./
+* Clone this repository
+* Navigate to the cloned repository
+* Run command $ pip install -e ./
 
