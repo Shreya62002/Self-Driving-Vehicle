@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 
 #constants
-alpha = 0.1
+alpha = 0.09
 gamma = 0.9
 epsilon = 1.0
 
