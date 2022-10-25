@@ -46,7 +46,7 @@ Out of the 5 available actions we trained our agent using 3 actions(LANE LEFT,ID
 
 ## Method Used
 Q learning \
-It is an off policy learning method of action values Q(s,a) in which we allow both behaviour and target policies to improve greedily.
+It is an off policy learning method of action values Q(s,a) in which we allow both behaviour and target policies to improve greedily.It is a model free method.
 
 ## Environment
 env =gym.make('highway-v0')
