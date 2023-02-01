@@ -2,12 +2,7 @@
 This project focuses on making a model of Self Driving Vehicle using Tabular Reinforcement Learning Techniques.
 # **Description**
 Make a Reinforcement Learning (RL) Model for highway environment using Q learning.
-
-
-
 ![](https://i.imgur.com/TLSKXgR.gif)
-
-
 # **Implementation**
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## Observation Space
@@ -16,8 +11,6 @@ We used LiDar observation to measure relative distances of ego vehicle from othe
 All possible states of our environment includes relative distances between ego vehicle and other vehicles and angles or directions where other vehicles are present.This makes our state space too large so to reduce it we :\
 1)Took 16 angles out of which we picked up only 5 to reduce our state space .Took only front and side angles ignoring backward ones as while driving our priority is to avoid collision of our agent car from the ones infront of it.\
 2)Discretized distances by 0.2 to reduce state space .This step is necessary as it is difficult to work on continuous state space (large state space).
-
- 
 ## Action Space
 #### Discrete Meta Actions
 
