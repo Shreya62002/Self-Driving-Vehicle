@@ -1,4 +1,4 @@
-> # **Self Driving Vehicle**
+ # **Self Driving Vehicle**
 This project focuses on making a model of Self Driving Vehicle using Tabular Reinforcement Learning Techniques.
 # **Description**
 Make a Reinforcement Learning (RL) Model for highway environment using Q learning.
