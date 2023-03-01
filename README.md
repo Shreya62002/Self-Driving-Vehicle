@@ -5,7 +5,8 @@ Make a Reinforcement Learning (RL) Model for highway environment using Q learnin
 
 
 
-![](https://i.imgur.com/TLSKXgR.gif)
+![TLSKXgR](https://user-images.githubusercontent.com/102024497/222049309-0b7e8fe0-dd52-4634-a1c7-3d97e0722c36.gif)
+
 
 
 # **Implementation**
