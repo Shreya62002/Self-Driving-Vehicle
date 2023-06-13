@@ -47,7 +47,7 @@ env =gym.make('highway-v0')
 'reward_speed_range': [20, 30]\
 Out of these 5 rewards which are defined we used only first 3 rewards in our code.
 # **Graphs**
-#### Testing Graph For 300 Episodes
+
 ![image](https://github.com/Shreya62002/Self-Driving-Vehicle/assets/102024497/30204b03-6bb4-47e5-9f1b-aaf4a275a613)
 
 
