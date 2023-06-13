@@ -48,9 +48,11 @@ env =gym.make('highway-v0')
 Out of these 5 rewards which are defined we used only first 3 rewards in our code.
 # **Graphs**
 #### Testing Graph For 300 Episodes
-![](https://i.imgur.com/0Xg0u13.jpg)
+![image](https://github.com/Shreya62002/Self-Driving-Vehicle/assets/102024497/30204b03-6bb4-47e5-9f1b-aaf4a275a613)
 
-![](https://i.imgur.com/pvKLUIF.jpg)
+
+![image](https://github.com/Shreya62002/Self-Driving-Vehicle/assets/102024497/9c7a671b-aa0b-4fde-9b70-c35a85d24866)
+
 
 # **Dependencies**
 
